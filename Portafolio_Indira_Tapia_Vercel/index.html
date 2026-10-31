@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a1121" />
+  <meta name="description" content="Portafolio de Indira Tapia Quispe, estudiante del 5.º ciclo de Ingeniería de Software con Inteligencia Artificial en SENATI. Proyectos académicos, habilidades y experiencia." />
+  <meta name="author" content="Indira Tapia Quispe" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Indira Tapia | Portafolio de desarrollo" />
+  <meta property="og:description" content="Aprendiendo a transformar ideas en soluciones digitales. Estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI." />
+  <title>Indira Tapia — Portafolio de desarrollo</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="site-grid" aria-hidden="true"></div>
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Indira Tapia, ir al inicio">
+        <span class="brand-logo">it<span class="brand-dot">.</span></span>
+        <span class="brand-descriptor">PORTAFOLIO <span>/</span> 2026</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#trayectoria">Trayectoria</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
+        </button>
+        <a href="#contacto" class="button button-small button-outline header-contact">Hablemos <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" type="button" id="menu-toggle" aria-label="Abrir menú" aria-controls="mobile-nav" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" hidden>
+      <a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Habilidades</a><a href="#proyectos">Proyectos</a><a href="#trayectoria">Trayectoria</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow hero-eyebrow"><span class="eyebrow-spark"></span> ESTUDIANTE DE SOFTWARE & IA <span class="eyebrow-separator"></span> SENATI</div>
+          <h1 id="hero-title">Hola, soy <span class="name-gradient">Indira.</span><br />Creo, aprendo y <span class="outline-word">construyo.</span></h1>
+          <p class="hero-description">Estoy en el <strong>5.º ciclo de Ingeniería de Software con Inteligencia Artificial</strong>. Me gusta convertir lo que aprendo en clase en proyectos útiles, mientras sigo creciendo paso a paso como desarrolladora.</p>
+          <div class="hero-actions">
+            <a href="#proyectos" class="button button-primary">Explorar proyectos <svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></a>
+            <a href="assets/CV-Indira-Tapia.pdf" class="button button-text" download="CV-Indira-Tapia.pdf">Descargar CV <svg class="download-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 17v3h14v-3"/></svg></a>
+          </div>
+          <div class="hero-location"><span class="location-indicator"></span> Santa Anita, Lima, Perú <span class="separator">·</span> Aprendiendo todos los días</div>
+        </div>
+        <div class="hero-art" aria-label="Ilustración conceptual de un espacio de programación">
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+          <div class="floating-chip chip-one"><span class="chip-icon">✦</span><span>Curiosidad + código</span></div>
+          <div class="floating-chip chip-two"><span class="chip-icon chip-cyan">●</span><span>En constante aprendizaje</span></div>
+          <div class="code-window">
+            <div class="window-titlebar"><div class="window-dots"><i></i><i></i><i></i></div><span>hola-mundo.js</span><span class="terminal-ellipsis">•••</span></div>
+            <div class="code-body" aria-hidden="true">
+              <div><span class="ln">01</span> <span class="syntax-purple">const</span> <span class="syntax-blue">estudiante</span> = {</div>
+              <div><span class="ln">02</span> &nbsp;&nbsp;nombre: <span class="syntax-green">'Indira'</span>,</div>
+              <div><span class="ln">03</span> &nbsp;&nbsp;instituto: <span class="syntax-green">'SENATI'</span>,</div>
+              <div><span class="ln">04</span> &nbsp;&nbsp;ciclo: <span class="syntax-orange">5</span>,</div>
+              <div><span class="ln">05</span> &nbsp;&nbsp;enfoque: <span class="syntax-green">'Software + IA'</span>,</div>
+              <div><span class="ln">06</span> &nbsp;&nbsp;motivación: <span class="syntax-green">'seguir creando'</span></div>
+              <div><span class="ln">07</span> };</div>
+              <div class="code-spacer"></div>
+              <div><span class="ln">09</span> <span class="syntax-purple">function</span> <span class="syntax-blue">miFuturo</span>() {</div>
+              <div><span class="ln">10</span> &nbsp;&nbsp;<span class="syntax-purple">return</span> <span class="syntax-green">'Aprender → Crear → Mejorar'</span>;</div>
+              <div><span class="ln">11</span> }<span class="cursor-block"></span></div>
+            </div>
+            <div class="code-status"><span><i></i> Modo aprendizaje</span><span>JavaScript <span class="status-brackets">{ }</span></span></div>
+          </div>
+          <div class="hero-monogram" aria-hidden="true">IT</div>
+        </div>
+      </div>
+      <div class="container hero-statbar" aria-label="Resumen de portafolio">
+        <div class="stat"><span class="stat-number">05<span>°</span></span><span class="stat-label">Ciclo en SENATI</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-number">02</span><span class="stat-label">Proyectos académicos</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-number">02</span><span class="stat-label">Ideas para desarrollar</span></div>
+        <div class="statbar-aside"><span class="little-star">✳</span> Un portafolio en evolución</div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="sobre-mi" aria-labelledby="about-heading">
+      <div class="container about-layout">
+        <div class="about-left reveal">
+          <p class="section-index"><span>01</span> / SOBRE MÍ</p>
+          <h2 id="about-heading">Más que escribir código, <span class="text-accent">quiero resolver problemas.</span></h2>
+          <div class="about-avatar" aria-label="Monograma IT, sin fotografía personal"><span>IT</span><i class="avatar-star">✳</i><span class="avatar-bottom">SIGUIENTE CAPÍTULO ↗</span></div>
+        </div>
+        <div class="about-right reveal">
+          <p class="lead-text">Soy <strong>Indira Tapia Quispe</strong>, estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI. Me interesa comprender cómo funciona la tecnología y cómo aplicarla de manera sencilla en la vida real.</p>
+          <p>En mis experiencias de atención al cliente aprendí algo que también considero importante al desarrollar software: <strong>escuchar, comunicar ideas con claridad y encontrar soluciones prácticas.</strong></p>
+          <p>Actualmente estoy fortaleciendo mis bases de desarrollo de aplicaciones, herramientas digitales y comunicación en tiempo real a través de trabajos académicos.</p>
+          <div class="value-grid">
+            <div class="value-item"><span class="value-icon">↗</span><span><strong>Aprendizaje continuo</strong><small>Explorar, practicar y mejorar.</small></span></div>
+            <div class="value-item"><span class="value-icon">◎</span><span><strong>Trabajo en equipo</strong><small>Escuchar y colaborar.</small></span></div>
+            <div class="value-item"><span class="value-icon">✧</span><span><strong>Atención al detalle</strong><small>Organizar para avanzar.</small></span></div>
+            <div class="value-item"><span class="value-icon">⌁</span><span><strong>Comunicación clara</strong><small>Hacer comprensible lo complejo.</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="habilidades" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-index"><span>02</span> / MI CAJA DE HERRAMIENTAS</p><h2 id="skills-heading">Tecnologías que <span class="text-accent">estoy aprendiendo.</span></h2></div><p>Estas son herramientas que he explorado en mi formación. Mi objetivo es seguir ganando práctica con proyectos reales.</p></div>
+        <div class="skills-layout">
+          <article class="skill-panel skill-panel-main reveal"><span class="panel-label">BASES TÉCNICAS</span><div class="skill-grid">
+            <div class="skill-tile"><span class="tile-logo tile-node">N</span><strong>Node.js</strong><small>Práctica académica</small></div>
+            <div class="skill-tile"><span class="tile-logo tile-socket">↔</span><strong>Socket.IO</strong><small>Chat en tiempo real</small></div>
+            <div class="skill-tile"><span class="tile-logo tile-android">◈</span><strong>Android Studio</strong><small>Uso académico</small></div>
+            <div class="skill-tile"><span class="tile-logo tile-tools">&lt;/&gt;</span><strong>Herramientas digitales</strong><small>Manejo básico</small></div>
+          </div><div class="panel-footnote"><span class="footnote-dot"></span> Competencias en formación, no especializaciones.</div></article>
+          <article class="skill-panel skill-panel-soft reveal"><span class="panel-label">HABILIDADES HUMANAS</span><div class="soft-skill-list"><div><span>01</span><strong>Comunicación y escucha</strong><i>↗</i></div><div><span>02</span><strong>Trabajo en equipo</strong><i>↗</i></div><div><span>03</span><strong>Organización</strong><i>↗</i></div><div><span>04</span><strong>Adaptación al cambio</strong><i>↗</i></div><div><span>05</span><strong>Aprendizaje rápido</strong><i>↗</i></div></div><p class="soft-skill-note">También desarrolladas en mis experiencias de atención al público.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="proyectos" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-index"><span>03</span> / PROYECTOS</p><h2 id="projects-heading">Pequeños proyectos. <span class="text-accent">Grandes aprendizajes.</span></h2></div><p>Dos trabajos que figuran en mi CV y dos ideas de práctica para mi siguiente etapa de aprendizaje.</p></div>
+        <div class="projects-toolbar reveal"><div class="project-filters" role="group" aria-label="Filtrar proyectos"><button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos <span>04</span></button><button class="filter-button" type="button" data-filter="academico" aria-pressed="false">Académicos <span>02</span></button><button class="filter-button" type="button" data-filter="idea" aria-pressed="false">Ideas de práctica <span>02</span></button></div><span class="project-count" id="project-count" aria-live="polite">Mostrando 4 proyectos</span></div>
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card reveal" data-category="academico"><div class="project-visual visual-eco"><div class="visual-top"><span class="visual-pill"><i></i> APP ANDROID</span><span class="visual-index">01 / 04</span></div><div class="eco-phone"><div class="eco-phone-top"></div><span class="eco-app-title">ecolim<span>app.</span></span><small>Registro de residuos</small><div class="eco-measure"><span>♻</span><div><strong>12.5 <small>kg</small></strong><small>Ejemplo ilustrativo</small></div></div><div class="eco-list"><span>Plástico <b>●●●●○</b></span><span>Papel <b>●●●○○</b></span><span>Vidrio <b>●●○○○</b></span></div></div><span class="visual-caption">Vista ilustrativa · no es captura real</span></div><div class="project-content"><div class="project-meta"><span class="project-type type-academic">✓ Proyecto académico</span><span>Aplicación móvil</span></div><h3>EcolimApp</h3><p>Proyecto de aplicación Android para registrar tipos de residuos y cantidades expresadas en kilogramos.</p><div class="tags"><span>Android</span><span>Registro de datos</span><span>Proyecto SENATI</span></div><button class="project-link" type="button" data-project="ecolim">Conocer el proyecto <span aria-hidden="true">↗</span></button></div></article>
+          <article class="project-card reveal" data-category="academico"><div class="project-visual visual-chat"><div class="visual-top"><span class="visual-pill"><i></i> TIEMPO REAL</span><span class="visual-index">02 / 04</span></div><div class="chat-window"><div class="chat-header"><span class="chat-avatar">C</span><div><strong>Chat académico</strong><small><i></i> conexión activa</small></div><span class="chat-more">•••</span></div><div class="bubble bubble-left">¡Hola! ¿Cómo va el proyecto?</div><div class="bubble bubble-right">¡Bien! Los mensajes llegan al instante ✨</div><div class="bubble bubble-left short">¡Perfecto! 🙌</div><div class="chat-input">Escribe un mensaje... <span>➤</span></div></div><span class="visual-caption">Vista ilustrativa · no es captura real</span></div><div class="project-content"><div class="project-meta"><span class="project-type type-academic">✓ Ejercicio académico</span><span>Aplicación web</span></div><h3>Chat en tiempo real</h3><p>Ejercicio de comunicación en línea usando Node.js y Socket.IO para practicar el intercambio de mensajes.</p><div class="tags"><span>Node.js</span><span>Socket.IO</span><span>Tiempo real</span></div><button class="project-link" type="button" data-project="chat">Conocer el proyecto <span aria-hidden="true">↗</span></button></div></article>
+          <article class="project-card reveal" data-category="idea"><div class="project-visual visual-tasks"><div class="visual-top"><span class="visual-pill visual-pill-idea">✳ CONCEPTO</span><span class="visual-index">03 / 04</span></div><div class="task-board"><div class="task-title"><span>◎</span><strong>Mi semana</strong><small>Octubre</small></div><div class="task-row"><span class="task-check checked">✓</span><span>Investigar para clase</span><small>Hoy</small></div><div class="task-row"><span class="task-check checked">✓</span><span>Practicar código</span><small>Hoy</small></div><div class="task-row"><span class="task-check"></span><span>Preparar exposición</span><small>Viernes</small></div><div class="task-progress"><span>Progreso semanal</span><strong>2 / 3</strong><div><i></i></div></div></div><span class="visual-caption">Mockup conceptual · proyecto no desarrollado</span></div><div class="project-content"><div class="project-meta"><span class="project-type type-idea">✳ Idea por desarrollar</span><span>Organización</span></div><h3>Mi Semana — Organizador</h3><p>Idea de una app sencilla para organizar actividades, marcar tareas completadas y visualizar el avance semanal.</p><div class="tags"><span>Propuesta</span><span>Interfaz</span><span>Productividad</span></div><button class="project-link" type="button" data-project="semana">Ver la propuesta <span aria-hidden="true">↗</span></button></div></article>
+          <article class="project-card reveal" data-category="idea"><div class="project-visual visual-study"><div class="visual-top"><span class="visual-pill visual-pill-idea">✳ CONCEPTO</span><span class="visual-index">04 / 04</span></div><div class="study-widget"><div class="study-graphic">✦<span>AI</span></div><strong>Estudia con claridad.</strong><small>Idea de asistente de estudio</small><div class="study-question">Resume este tema en 3 ideas...</div><div class="study-answer"><span></span><span></span><span></span></div><div class="study-badge">IDEA EN EXPLORACIÓN <span>↗</span></div></div><span class="visual-caption">Mockup conceptual · proyecto no desarrollado</span></div><div class="project-content"><div class="project-meta"><span class="project-type type-idea">✳ Idea por desarrollar</span><span>IA aplicada</span></div><h3>StudyMate — Asistente de estudio</h3><p>Concepto para explorar cómo la IA podría ayudar a organizar apuntes, generar preguntas y repasar temas.</p><div class="tags"><span>Propuesta</span><span>Inteligencia artificial</span><span>Educación</span></div><button class="project-link" type="button" data-project="studymate">Ver la propuesta <span aria-hidden="true">↗</span></button></div></article>
+        </div>
+        <div class="projects-disclaimer reveal"><span>✦</span><p><strong>Transparencia ante todo:</strong> EcolimApp y el chat son proyectos académicos incluidos en mi CV. «Mi Semana» y «StudyMate» son ideas conceptuales que me gustaría desarrollar; sus imágenes son representaciones ilustrativas, no aplicaciones terminadas.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-journey" id="trayectoria" aria-labelledby="journey-heading"><div class="container"><div class="section-top reveal"><div><p class="section-index"><span>04</span> / TRAYECTORIA</p><h2 id="journey-heading">Mi recorrido <span class="text-accent">hasta hoy.</span></h2></div><p>Cada experiencia, dentro y fuera del mundo tecnológico, me ha dejado habilidades para seguir creciendo.</p></div><div class="journey-layout"><div class="journey-column reveal"><h3><span class="journey-icon">◈</span> Formación</h3><div class="timeline"><div class="timeline-item"><span class="timeline-dot"></span><span class="time-label">2026 · EN CURSO</span><h4>Ingeniería de Software con Inteligencia Artificial</h4><strong>SENATI · 5.º ciclo</strong><p>Formación en desarrollo de software y exploración de tecnologías aplicadas.</p></div><div class="timeline-item"><span class="timeline-dot"></span><span class="time-label">FORMACIÓN COMPLEMENTARIA</span><h4>Computación e Informática</h4><strong>CETPRO</strong><p>Estudios complementarios en computación e informática.</p></div></div></div><div class="journey-column reveal"><h3><span class="journey-icon">↗</span> Experiencia laboral</h3><div class="timeline"><div class="timeline-item"><span class="timeline-dot"></span><span class="time-label">MAYO 2025 — ACTUALIDAD</span><h4>Atención al cliente</h4><strong>Call Center</strong><p>Orientación a clientes, comunicación de información y resolución de consultas con trato cordial.</p></div><div class="timeline-item"><span class="timeline-dot"></span><span class="time-label">ENERO 2024 — MARZO 2025</span><h4>Atención al público</h4><strong>Librería «Copias e Impresiones»</strong><p>Atención a clientes y apoyo en la organización de pedidos y servicios de impresión.</p></div></div></div></div></div></section>
+
+    <section class="section section-next"><div class="container next-layout reveal"><div><p class="section-index"><span>05</span> / PRÓXIMOS PASOS</p><h2>Lo siguiente que quiero <span class="text-accent">aprender y construir.</span></h2></div><div class="next-steps"><div><span>01 <i>↗</i></span><p>Crear interfaces claras y fáciles de usar.</p></div><div><span>02 <i>↗</i></span><p>Conectar aplicaciones y servicios con mayor confianza.</p></div><div><span>03 <i>↗</i></span><p>Explorar usos responsables de la inteligencia artificial.</p></div></div></div></section>
+
+    <section class="section-contact" id="contacto" aria-labelledby="contact-heading"><div class="container"><div class="contact-card reveal"><div class="contact-star contact-star-one" aria-hidden="true">✳</div><div class="contact-star contact-star-two" aria-hidden="true">✦</div><p class="contact-overline"><span></span> CONECTEMOS</p><h2 id="contact-heading">¿Tienes una idea o una <span>oportunidad para aprender?</span></h2><p>Me encantaría conocer proyectos, recibir sugerencias o conversar sobre oportunidades para seguir creciendo profesionalmente.</p><div class="contact-actions"><a class="button button-dark" href="mailto:tapia.mi1704@gmail.com?subject=Hola%20Indira%2C%20vi%20tu%20portafolio">Escríbeme por correo <span aria-hidden="true">↗</span></a><button class="copy-email" type="button" id="copy-email" data-email="tapia.mi1704@gmail.com" aria-label="Copiar correo electrónico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><span>Copiar correo</span></button></div><span class="contact-email">tapia.mi1704@gmail.com</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="footer-logo" href="#inicio">it<span>.</span></a><p>Hecho con dedicación, curiosidad y ganas de seguir aprendiendo.</p><a class="back-to-top" href="#inicio">Volver arriba ↑</a></div><div class="container footer-bottom"><span>© <span id="year">2026</span> Indira Tapia Quispe</span><span>Estudiante de SENATI · Lima, Perú</span></div></footer>
+
+  <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="modal-backdrop" data-close="true"></div><div class="modal-panel" tabindex="-1"><button type="button" class="modal-close" id="modal-close" aria-label="Cerrar ventana">×</button><p class="modal-overline" id="modal-overline"></p><h2 id="modal-title"></h2><p class="modal-intro" id="modal-intro"></p><div class="modal-detail-grid"><div><h3>¿De qué trata?</h3><p id="modal-what"></p></div><div><h3>¿Qué representa para mí?</h3><p id="modal-learning"></p></div></div><div class="modal-tags" id="modal-tags"></div><div class="modal-note" id="modal-note"></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
